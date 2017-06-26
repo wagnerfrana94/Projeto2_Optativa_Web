@@ -1,0 +1,348 @@
+/*-Arquivo contendo o css utilizado no site e desenvolvido por Wagner Frana-*/
+
+@media only screen and (max-width: 770px) {
+    			.rodape{
+       				display: block;
+    			}
+  			}
+
+ul#navigation li a {
+    
+    float:left;
+    width: 95px;
+    
+    background-color: #4A708B; /*---cor de fundo---*/
+    background-repeat:no-repeat;
+    background-position:50% 10%;
+    border:1px solid black;  /*---cor da borda---*/
+    -moz-border-radius:0px 0px 10px 10px;
+    -webkit-border-bottom-right-radius: 30px;
+    -webkit-border-bottom-left-radius: 15px;
+    -khtml-border-bottom-right-radius: 10px;
+    -khtml-border-bottom-left-radius: 10px;
+    text-decoration:none;
+    text-align: center;
+    padding-top:60px;
+    opacity: 1;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=70);  
+}
+ul#navigation li a:hover{
+    background-color: gray;
+    opacity: 1;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+}
+
+ul#navigation li a:focus{
+    background-color: gray;
+    opacity: 1;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+
+}
+
+ul#navigation li a span{
+    letter-spacing:1.5px;
+    font-size:14px;
+    color:#fff; /*---cor do link---*/
+    text-shadow: 0 -1px 1px #1ff;      
+}
+
+
+/* Aqui definimos as imagens de fundo para os links dos itens da lista do menu*/
+
+
+ul#navigation .contato a{
+    background-image: url("info2.png");
+}
+
+ul#navigation .home a{
+    background-image: url("home.png");
+} 
+
+ul#navigation .atende a{
+    background-image: url("admin.png");
+} 
+
+ul#navigation .filme a{
+    background-image: url("film_reel.png");
+} 
+
+ul#navigation .cadastro a{
+    background-image: url("clipboard.png");
+} 
+ul#navigation .loca a{
+    background-image: url("shoping_cart.png");
+}
+
+.spMenu{
+    color:black;
+}
+
+.spMenu:hover{
+    color:black;
+}
+
+.bttMenu:hover{
+    background-color:black;
+}
+
+.divHome{
+    background-color:#6CA6CD;
+    border: 1px solid;
+    border-radius: 30px 30px / 30px 30px;
+
+     
+}
+.bodyHome{
+    background-color: #9FB6CD;
+
+}
+
+@media only screen and (max-width: 575px) {
+   table{display:block; width:auto; overflow-x: auto; white-space: nowrap;}
+            }
+
+@media only screen and (min-width: 1px) {
+    .logo2{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .divHome{
+        background-color: #4682B4;
+    }
+    .logo2{
+        display: inline-block;
+    }
+    .rodape{
+       display: none;
+    }
+    .logo{
+        display: none;
+    }
+    .btReserva{
+        width: 100%;
+    }
+
+}
+7
+input:invalid { border: 2px solid red; }
+input:valid { border: 2px solid green; }
+.error{
+    color:#f33;
+}
+
+
+
+.logo{
+    margin: 10px 10px 10px 3px;
+
+}
+
+.slogo3{
+    color: black;
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    font-family: Comic sans MS;
+    
+
+}
+
+.slogo2{
+    color: black;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 1px;   
+
+}
+
+
+.rodape{
+    color: white;
+    border:solid 1px black;
+    padding: 15px 15px 15px 15px;
+    text-align: center; 
+
+}
+
+
+.divSlide{
+    border: solid 1px black;
+    box-shadow: 5px 5px 5px #000;
+    border-radius: 5px 5px / 5px 5px;
+   
+}
+
+#bSlide{
+    color: black ;
+    padding: 20px;
+    font-family: arial;
+    font-size: 15px;
+}
+
+body{
+    background-color:#CFCFCF;
+
+
+}
+
+
+
+
+.formReserva{
+
+    background-color: #E8E8E8;
+    padding: 20px;
+    margin-top: 5%;
+    border: solid 1px black;
+    border-radius: 10px 10px / 10px 10px;
+    margin-bottom: 5%;
+}
+
+.divLogin{
+    text-align: center;
+
+
+}
+
+
+.aCadastrase{
+    font-size: 16px;
+}
+
+.formSearch{
+    margin-top: 30px;
+    margin-right: 40px;
+    margin-bottom: 10px;   
+    float:right;
+    color: black;
+}
+
+.bodyCadastro{
+    background: url("cad6.jpg") no-repeat center center;
+    background-color: black;
+}
+.formCadastro{
+    padding: 5px;
+    margin-top: 1%;
+    background: rgba(40, 40, 50, 1.0);
+    margin-bottom: 5%;
+    color: #E8E8E8;
+    border-radius: 10px 10px / 10px 10px;
+    border: solid 1px black;
+}
+
+.botaoCadastro{
+    border: solid 1px green;
+    color: black;
+}
+
+.h2Cadastro{
+    text-align: center;
+    margin-bottom: 25px;
+    font-family: arial;
+    letter-spacing: 2px; 
+}
+
+.bodyHomeInfos{
+    background-color: #8470FF;
+}
+
+
+
+.divInfos{
+    background-color: #607B8B;
+    padding: 50px;
+    color: white;
+    font-size:18px;
+    text-align: justify;
+    text-decoration:none;
+    border: solid 1px black;
+    margin-bottom: 10%;
+    border-radius: 0px 0px 15px 15px;
+    border: 1px solid black;
+
+
+}
+.aInfos{
+    color: #00EE00;
+}
+.aInfos:hover {
+    text-decoration: underline; 
+    color: lightgreen;
+    
+}
+
+.navInfos{
+    background-color: #e3e3e3;
+    padding: 3px;
+    border: 1px solid black;
+}
+.aRSocial{
+    color:black;
+}
+
+.divAtendente{
+    border: solid 1px black;
+    border-radius: 10px 10px / 10px 10px;
+    padding: 25px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background-color: #EEE9E9;
+}
+
+.bodyAtendente{
+    background-color: #5F9F9F;
+}
+
+.btReserva{
+  
+   font-size: 16px;
+   background-color: #eee;
+   margin-right: 2px;
+   border-radius: 20px;
+   border: solid 1px gray;
+
+
+}
+
+.bodyReserva{
+    background-color: #4682B4;
+    color: black;
+
+}
+
+.navReserva{
+    background-color: #CDC5BF;
+    border: solid 1px black;
+    color: black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.tableReserva,.tableReservaAdd{
+    background-color: white;
+    border:solid 1px black;
+
+
+}
+
+
+.botaoReserva, .botaoSair, .botaoFinalizarReserva{
+    border: solid 1px white;
+    color: black;
+}
+
+.btnCarrinho{
+    margin-top: 8px;
+    border: solid 1px black;
+    background-color: blue;
+    color:white;
+}
+
+.btCor{
+    background-color: #3366FF;
+}
+
+/* CSS declarations go here */
